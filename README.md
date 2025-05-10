@@ -20,7 +20,7 @@ The above mentioned datasets are uploaded to the [Dataset](./Dataset/) folder.
 
 ## Feature Extraction
 The below mentioned features are extracted from the URL data:
-1.URL starting with http or https
+1. URL starting with http or https
 2. Domain of URL
 3. IP Address in URL
 4. "@" Symbol in URL
