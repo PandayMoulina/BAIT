@@ -1,6 +1,6 @@
 # BAIT - A Project to detect phishing website using Machine Learning
 
-##What is a Phishing Website?
+## What is a Phishing Website?
 A phishing website is a fraudulent website designed to look like a legitimate one in order to trick users into revealing sensitive information such as Usernames and passwords, Credit card numbers, Bank account details, Personal identification information (like Aadhaar or PAN in India), etc.
 
 These websites often imitate trusted sites like banks, email providers, social media platforms, or e-commerce stores. Once users enter their information, the data is captured by cybercriminals for misuse.
