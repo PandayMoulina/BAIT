@@ -20,13 +20,18 @@ The above mentioned datasets are uploaded to the [Dataset](./Dataset/) folder.
 
 ## Feature Extraction
 The below mentioned features are extracted from the URL data:
-1. Address Bar based Features
-     (In this 11 features are extracted).
-2. Domain based Features
-     (In this 4 features are extracted).
-3. HTML & Javascript based Features
-     (In this category 4 features are extracted).
+1.URL starting with http or https
+2. Domain of URL
+3. IP Address in URL
+4. "@" Symbol in URL
+5. Length of URL
+6. Depth of URL
+7. Redirection "//" in URL
+8. "http/https" in Domain name
+9. Using URL Shortening Serives "TinyURL"
+10. Prefix or Suffix "-" in Domain
+11. No of dots(.)
    
-In total there are 19 features extracted from the 10,000 URL dataset and are stored in 'final_dataset.csv' in the Dataset folder. 
+In total there are 11 features extracted from the 10,000 URL dataset and are stored in 'final_dataset.csv' in the Dataset folder. 
 
 The feature extraction is done in the '(./FeatureExtraction.ipynb/)'.
