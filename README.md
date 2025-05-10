@@ -16,5 +16,5 @@ A set of 5000 phishing URLs are collected to train the ML model from an opensour
 The legitimate URLs are obtained from Kaggle. We found a source that has a collection of legitimate and phishing URLs. The link to it is https://www.kaggle.com/datasets/harisudhan411/phishing-and-legitimate-urls?resource=download
 This URL collection was downloaded and then from that the 'Legitimate_urls.csv' file is created by extracting only the legitimate URLs from the collection. Out of this collection, a set of 5000 legitimate URLs were sampled randomly for training the models. 
 
-The above mentioned datasets are uploaded to the '/Datasets' folder.
+The above mentioned datasets are uploaded to the 'Datasets/' folder.
 
