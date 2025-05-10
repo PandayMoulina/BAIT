@@ -37,3 +37,20 @@ In total there are 11 features extracted from the 10,000 URL dataset and are sto
 The feature extraction is done in the '[Feature Extraction](./FeatureExtraction.ipynb/)'.
 
 So, 12 features are extracted from the 10,000 URL dataset and are stored in '[urldata](./Dataset/urldata.csv/)' in the Dataset folder.
+
+## Model Training and Evaluation
+Before stating the ML model training, the data is split into 80-20 i.e., 8000 training samples & 2000 testing samples. From the dataset, it is clear that this is a classification based supervised machine learning task that classifies the input URL into phishing(1) and legitimate(0). 
+
+The supervised machine learning models (classification) considered to train the dataset in this project are:
+1. Decision Tree
+2. Random Forest
+3. Logistic Regression
+4. Multilayer Perceptrons
+5. XGBoost
+6. Autoencoder Neural Network
+7. Support Vector Machines
+
+All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in '[Phising_Website_Model_Training.ipynb](./Phishing_Website_Model_Training.ipynb/)'
+
+##End Result
+From the obtained results of the above methods, Random Forest Classifier has the highest accuracy on the Test Data set of 97.4%.
