@@ -35,3 +35,5 @@ The below mentioned features are extracted from the URL data:
 In total there are 11 features extracted from the 10,000 URL dataset and are stored in 'final_dataset.csv' in the Dataset folder. 
 
 The feature extraction is done in the '[Feature Extraction](./FeatureExtraction.ipynb/)'.
+
+So, 12 features are extracted from the 10,000 URL dataset and are stored in '[urldata](./Dataset/urldata.csv/)' in the Dataset folder.
